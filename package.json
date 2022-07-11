@@ -42,6 +42,16 @@
             "/api/**"
         ]
     },
+    "prettier": {
+        "arrowParens": "always",
+        "bracketSpacing": true,
+        "jsxSingleQuote": true,
+        "printWidth": 80,
+        "semi": false,
+        "singleQuote": true,
+        "tabWidth": 2,
+        "useTabs": false
+    },
     "eslintConfig": {
         "extends": [
             "./node_modules/standard/eslintrc.json"
